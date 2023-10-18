@@ -5,7 +5,7 @@ Food Warrior was developed in the context of the 19 hours 2023 EESTEC European h
 Cross-platform mobile application which aims to connect restaurants with leftover food and clients who look for cheap products and care about environment, all in a gamified way.
 
 
-###### Users can:
+##### Users can
 
 - Choose their character
 - Compete in the global leaderboard
@@ -13,10 +13,15 @@ Cross-platform mobile application which aims to connect restaurants with leftove
 - Exchange FoodWarrior crypto with other users
 
 
-###### The points schema:
+##### The points schema
 
 1. A user buys food
 2. The amount of points given to the user is inversely proportional to how much the ordered food is usually requested
 3. The amount of FoodWarrior crypto given to the user is proportional to the earned points
 4. The user can send FoodWarrior crypto to restaurants for discounts, or to other users, creating a distributed anti-waste network
+
+
+##### Notes
+- Firebase configuration files were gitignored, due to security reasons, so if cloned the app won't connect to a backend.
+- A NodeJS backend was developed during the hackathon, however is not added in this repository.
 
